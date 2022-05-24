@@ -9,8 +9,10 @@ const Home: NextPage = () => {
     <div className="ok">
       <NavHome />
       <Card>
-        <DisplayCard />
-        <Card.Body>This is some text within a card body.</Card.Body>
+        
+        <Card.Body>
+          <DisplayCard />
+        </Card.Body>
       </Card>
       
     </div>

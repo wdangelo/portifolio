@@ -1,20 +1,17 @@
-import { Card, Figure } from "react-bootstrap";
+import { Button, Card } from "react-bootstrap";
 
-
-import william from "../../../public/william.jpeg"
 export default function DisplayCard(){
     return(
 
-<Figure>
-  <Figure.Image
-    width={171}
-    height={180}
-    alt="171x180"
-    src="../../../public/william.jpeg"
-  />
-  <Figure.Caption>
-    William de angelo
-  </Figure.Caption>
-</Figure>
+<Card style={{ width: '18rem' }}>
+  <Card.Img variant="top" src="/william.svg" />
+  <Card.Body>
+    <Card.Title>William de Angelo</Card.Title>
+    <Card.Text>
+      
+    </Card.Text>
+    <Button variant="primary">Sobre mim</Button>
+  </Card.Body>
+</Card>
     )
 }
