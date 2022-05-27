@@ -1,3 +1,4 @@
+import { Nav } from "react-bootstrap";
 import styled from "styled-components";
 
 export const Container = styled.div`
@@ -6,18 +7,16 @@ export const Container = styled.div`
     flex-direction: column;
     position: fixed;
 
-    button {
- 
-        border: none;
-        height: 50px;
-        width: 100px;
-        border-radius: 100px;
-        transition: transform .5s ease;
-    }
-    button:hover {
-        transform: scale(1.5);
-        transition: transform .3s ease;
-        width: 110px;
+`
 
-    }
+export const SocialButton = styled(Nav.Link)`
+
+        transition: transform .5s ease;
+
+        &:hover {
+            transform: scale(1.5);
+            transition: transform .3s ease;
+            width: 90px;
+            height: 90px;
+        }
 `
