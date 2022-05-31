@@ -1,7 +1,5 @@
 import Image from "next/image"
 import { Container, SocialButton } from "./styles"
-import { Nav } from "react-bootstrap"
-
 
 export default function SocialBar(props) {
 
@@ -10,19 +8,18 @@ export default function SocialBar(props) {
     <Container>
 
        <SocialButton href="https://www.facebook.com/Williamdeangelo">
-        <Image src="/Facebook.png" width={60} height={60} />
+        <Image src="/icons8-facebook-240.png" width={60} height={60} />
        </SocialButton>
-    
         <SocialButton href="https://www.instagram.com/wil_horse/" >
-            <Image src="/Instagram.png" width={60} height={60} />
+            <Image src="/icons8-instagram-240.png" width={60} height={60} />
         </SocialButton>
 
         <SocialButton href="https://www.linkedin.com/in/willian-de-angelo-7a7a16138/">
-            <Image src="/Linkedin.png" width={60} height={60} />
+            <Image src="/icons8-linkedin-circled-240.png" width={60} height={60} />
         </SocialButton>
 
         <SocialButton href="https://github.com/wdangelo" >
-            <Image src="/Github.png" width={60} height={60} />
+            <Image src="/GitHub-Mark-Light-64px.png" width={60} height={60} />
         </SocialButton>
 
     </Container>

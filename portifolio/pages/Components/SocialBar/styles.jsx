@@ -10,13 +10,14 @@ export const Container = styled.div`
 `
 
 export const SocialButton = styled(Nav.Link)`
-
+        width: 70px;
+        height: 70px;
         transition: transform .5s ease;
 
         &:hover {
             transform: scale(1.5);
             transition: transform .3s ease;
-            width: 90px;
-            height: 90px;
+            width: 80px;
+            height: 80px;
         }
 `
