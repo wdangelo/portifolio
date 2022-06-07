@@ -1,6 +1,10 @@
 import { Nav } from "react-bootstrap";
 import styled from "styled-components";
 
+function Styles() {
+
+}
+
 export const Container = styled.div`
     margin-top: 15%;
     display: flex;
@@ -21,3 +25,5 @@ export const SocialButton = styled(Nav.Link)`
             height: 80px;
         }
 `
+
+export default Styles;

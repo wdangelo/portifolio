@@ -2,10 +2,11 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/api/hello": "pages/api/hello.js",
-  "/components/DisplayCard": "pages/components/DisplayCard.js",
-  "/components/NavHome": "pages/components/NavHome.js",
-  "/components/SocialBar": "pages/components/SocialBar.js",
-  "/components/SocialBar/styles": "pages/components/SocialBar/styles.js",
-  "/": "pages/index.js",
-  "/_document": "pages/_document.js"
+  "/components/DisplayCard": "pages/components/DisplayCard.html",
+  "/components/NavHome": "pages/components/NavHome.html",
+  "/components/SocialBar": "pages/components/SocialBar.html",
+  "/components/SocialBar/styles": "pages/components/SocialBar/styles.html",
+  "/": "pages/index.html",
+  "/_document": "pages/_document.js",
+  "/404": "pages/404.html"
 }

@@ -5,9 +5,9 @@
   "devFiles": [],
   "ampDevFiles": [],
   "lowPriorityFiles": [
-    "static/9gAkr3YQ26VM-kuxQ2Y33/_buildManifest.js",
-    "static/9gAkr3YQ26VM-kuxQ2Y33/_ssgManifest.js",
-    "static/9gAkr3YQ26VM-kuxQ2Y33/_middlewareManifest.js"
+    "static/rMx7Fvyf8CZB4JusysXhu/_buildManifest.js",
+    "static/rMx7Fvyf8CZB4JusysXhu/_ssgManifest.js",
+    "static/rMx7Fvyf8CZB4JusysXhu/_middlewareManifest.js"
   ],
   "pages": {
     "/": [
@@ -19,7 +19,7 @@
       "static/chunks/293-0f8302a6a3cf3ed2.js",
       "static/chunks/911-f72950ba8e9ec678.js",
       "static/chunks/675-c58e00aa159d32c4.js",
-      "static/chunks/pages/index-6c378b6600d12353.js"
+      "static/chunks/pages/index-fc26c26685e0e27b.js"
     ],
     "/_app": [
       "static/chunks/webpack-ed5a8ddaab24ddba.js",
@@ -55,7 +55,7 @@
       "static/chunks/674-6c9c6aeee6faf393.js",
       "static/chunks/293-0f8302a6a3cf3ed2.js",
       "static/chunks/675-c58e00aa159d32c4.js",
-      "static/chunks/pages/components/SocialBar-1d2a95ac1abe5a01.js"
+      "static/chunks/pages/components/SocialBar-7681d02b69860c97.js"
     ],
     "/components/SocialBar/styles": [
       "static/chunks/webpack-ed5a8ddaab24ddba.js",
@@ -63,7 +63,7 @@
       "static/chunks/main-fc7d2f0e2098927e.js",
       "static/chunks/674-6c9c6aeee6faf393.js",
       "static/chunks/293-0f8302a6a3cf3ed2.js",
-      "static/chunks/pages/components/SocialBar/styles-61712b2998ac532c.js"
+      "static/chunks/pages/components/SocialBar/styles-c2c0d86e2b09775f.js"
     ]
   },
   "ampFirstPages": []
