@@ -1,7 +1,7 @@
 import Image from "next/image"
 import { Container, SocialButton } from "./styles"
 
-export default function SocialBar(props) {
+function SocialBar() {
 
     return(
 
@@ -26,3 +26,5 @@ export default function SocialBar(props) {
 
     )
 }
+
+export default SocialBar

@@ -1,6 +1,6 @@
 import { Button, Card } from "react-bootstrap";
 
-export default function DisplayCard(){
+function DisplayCard(){
     return(
 
 <Card style={{ width: '18rem' }}>
@@ -15,3 +15,5 @@ export default function DisplayCard(){
 </Card>
     )
 }
+
+export default DisplayCard;

@@ -1,6 +1,6 @@
 import { Container, Navbar, NavDropdown, Nav } from "react-bootstrap";
 
-export default function NavHome() {
+function NavHome() {
   return (
   <Navbar bg="dark" variant="dark" expand="lg">
   <Container>
@@ -12,3 +12,5 @@ export default function NavHome() {
   </Navbar>
   )
 }
+
+export default NavHome;
