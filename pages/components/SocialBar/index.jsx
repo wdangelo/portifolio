@@ -27,4 +27,4 @@ function SocialBar() {
     )
 }
 
-export { SocialBar };
+export default SocialBar;

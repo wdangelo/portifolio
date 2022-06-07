@@ -13,4 +13,4 @@ function NavHome() {
   )
 }
 
-export { NavHome };
+export default NavHome ;
